@@ -239,7 +239,7 @@ nav .icon{
   background-color: azure;
   position: absolute;
   border-radius: 30px;
-  left: 350px;
+  left: 500px;
   top: 20px;
 }
 .photo .bag{
@@ -253,7 +253,7 @@ nav .icon{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  left: 440px;
+  left: 600px;
   top: 400px;
 }
 #bag{
