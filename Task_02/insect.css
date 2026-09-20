@@ -78,22 +78,33 @@ input[type="text"]{
 .lefttext{
     width: 45%;
     height: 66%;
-    background-color: #B22F26;
     margin-left: 35%;
     margin-top: 10%;
     padding-left: 30px;
+    
 }
 .lefttext .inside{
     width: 100%;
     height:calc(100%/6);
-    background-color: aquamarine;
     display: flex;
     gap: 15px;
 }
-.inside h1{
-    color: #BE3E33;
+.inside .insideup{
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.insideup span{
     font-size: 60px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    color: #B22F26;
+}
+.insideup h2:nth-child(2){
+    padding-left: 38px;
+    font-weight: 100;
+    opacity: 0.8;
 }
  #center{
     width: 27%;
