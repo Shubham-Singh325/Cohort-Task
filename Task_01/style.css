@@ -212,7 +212,7 @@ nav .icon{
 .right .photo{
   height:100% ;
   width: 75%;
-  background-image: url(https://scontent.fjlr2-1.fna.fbcdn.net/v/t39.30808-6/481180409_1001486992032186_2336453779242284649_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=19V-hlKYJDwQ7kNvwFhL-T5&_nc_oc=Adr5HFsovXG2EX2Tw9Ah2AqNDSNjOuSrYIssfjyP8GygDkMJnNzWh5Yv50cBsI9TnF6bHQAqcqFfFw0kowdl7lsd&_nc_zt=23&_nc_ht=scontent.fjlr2-1.fna&_nc_gid=_yVEi_fwDs1tIrxAXR-TGQ&_nc_ss=7b289&oh=00_AQJ1NGSZM0z74M_hykpUgbl6zStnGit_Gc3Qsll3QJDXdg&oe=6AA5FD4C);
+  background-image: url(https://images.unsplash.com/photo-1484186139897-d5fc6b908812?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw=&fm=jpg&q=60&w=3000);
   background-size: cover;
   border-radius: 30px;
   position: relative;
@@ -276,7 +276,7 @@ nav .icon{
   border: 3px solid #5C624F;
 }
 .side .card:nth-child(1){
-  background-image: url(https://scontent.fjlr2-1.fna.fbcdn.net/v/t39.30808-6/481180409_1001486992032186_2336453779242284649_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=19V-hlKYJDwQ7kNvwFhL-T5&_nc_oc=Adr5HFsovXG2EX2Tw9Ah2AqNDSNjOuSrYIssfjyP8GygDkMJnNzWh5Yv50cBsI9TnF6bHQAqcqFfFw0kowdl7lsd&_nc_zt=23&_nc_ht=scontent.fjlr2-1.fna&_nc_gid=_yVEi_fwDs1tIrxAXR-TGQ&_nc_ss=7b289&oh=00_AQJ1NGSZM0z74M_hykpUgbl6zStnGit_Gc3Qsll3QJDXdg&oe=6AA5FD4C);
+  background-image: url(https://images.unsplash.com/photo-1484186139897-d5fc6b908812?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw=&fm=jpg&q=60&w=3000);
   background-size: cover;
   background-position:bottom;
 }
