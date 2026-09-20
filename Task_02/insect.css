@@ -1,0 +1,159 @@
+ @font-face {
+    font-family: hii;
+    src: url(./ttf/blinkmacsystemfont-regular.ttf);
+ }
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: #FEFEFE;
+    position: relative;
+}
+.left section{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section>h1{
+    font-size: 45px;
+}
+input[type="text"]{
+    font-size: 20px;
+}
+.item input{
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 40px;
+    background-color: #F0F0F0;
+    margin-left: 10px;
+}
+.left .item{
+    width: 50%;
+    height: 50%;
+    margin-top: 7px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+#search{
+    font-size: 25px;
+    font-weight: 100;
+}
+.loweritem{
+    width: 100%;
+    height: 87%;
+    display: flex;
+}
+.font{
+    display: inline;
+    position: absolute;
+    font-size: 80px;
+    font-weight: 100;
+    transform:rotate(-90deg);
+    top: 50%;
+    right: 55%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lefttext{
+    width: 45%;
+    height: 66%;
+    background-color: #B22F26;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding-left: 30px;
+}
+.lefttext .inside{
+    width: 100%;
+    height:calc(100%/6);
+    background-color: aquamarine;
+    display: flex;
+    gap: 15px;
+}
+.inside h1{
+    color: #BE3E33;
+    font-size: 60px;
+    padding-bottom: 0px;
+}
+ #center{
+    width: 27%;
+    height: 75%;
+    position: absolute;
+    left: 35.9%;
+    top: 20%;
+    z-index: 9;
+ }
+.right{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to top,#B22F26,#BE3E33);   
+}
+.right nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: #FEFEFE;
+    font-weight: 100;
+}
+.right .text{
+    margin-left: 300px;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.right_middle #ins{
+    width: 50px;
+    height: 70px;
+}
+.content{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-weight: 100;
+
+}
+.right_middle{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right_lower{
+    width: 100%;
+    height: 33%; 
+}
