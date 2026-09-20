@@ -195,7 +195,6 @@ input[type="text"]{
 }
 .location{
     display: flex;
-    justify-content:;
 }
 #icon{
     font-size: 30px;
