@@ -2,6 +2,10 @@
     font-family: hii;
     src: url(./ttf/blinkmacsystemfont-regular.ttf);
  }
+ @font-face {
+    font-family: hello;
+    src: url(./ethereal-demo/EtherealDemo-Thin.otf);
+ }
  *{
   margin: 0;
   padding: 0;
@@ -140,11 +144,32 @@ input[type="text"]{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 
 }
 .right_middle #ins{
-    width: 50px;
-    height: 70px;
+    width: 70px;
+    height: 150px;
+    border-radius: 50px;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo>h3{
+    margin-top: 5px;
+    color: #FEFEFE;
+}
+
+.intro{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    border-left: solid #DABC92;
 }
 .content{
     width: 100%;
@@ -152,10 +177,14 @@ input[type="text"]{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    font-size: 27px;
+    padding-left: 50px;
+    font-size: 30px;
     font-weight: 100;
+    color: #FEFEFE;
 
+}
+.content h1:nth-child(2){
+    padding-right: 35px;
 }
 .right_middle{
     width: 100%;
@@ -164,7 +193,62 @@ input[type="text"]{
     justify-content: space-around;
     align-items: center;
 }
+.location{
+    display: flex;
+    justify-content:;
+}
+#icon{
+    font-size: 30px;
+    color: #DABC92;
+}
+.location .write{
+    margin-left: 10px;
+    color: #FEFEFE;
+    font-size: large;
+    font-weight: 100;
+    font-family: hello;
+}
 .right_lower{
     width: 100%;
     height: 33%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.right_lower>h1{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif ;
+    color: #DABC92;
+}
+.letter{
+    display: flex;
+    gap: 10px;
+}
+.letter>h3{
+    color: #FEFEFE;
+}
+.slider{
+    width: 40px;
+    height: 20px;
+    background-color: #CB796E;
+    position: relative;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+.slider .circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FEFEFE;
+}
+.right_lower button{
+    width: 70%;
+    height: 25%;
+    border-radius: 10px;
+    background-color: #DABC92;
+    font-size: 20px;
 }
